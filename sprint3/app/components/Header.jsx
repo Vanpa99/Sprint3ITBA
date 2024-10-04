@@ -1,9 +1,9 @@
 // Header.jsx (migrado)
 import styles from "../modules/Header.module.css";
 import Image from "next/image";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import Boton from "./Reutilizables/Boton";
-import Logo from "../public/assets/LogoITPowerBank.png"; // Coloca tu imagen en la carpeta 'public'
+import Logo from "../assets/LogoItPowerBank.png"; // Coloca tu imagen en la carpeta 'public'
 
 function Header({ handleLogout }) {
   return (
@@ -21,8 +21,8 @@ function Header({ handleLogout }) {
   );
 }
 
-Header.propTypes = {
-  handleLogout: PropTypes.func.isRequired,
-};
+// Header.propTypes = {
+//   handleLogout: PropTypes.func.isRequired,
+// };
 
 export default Header;
